@@ -4,6 +4,7 @@ Activity <- Contains the 6 different activities (WALKING, WALKING_UPSTAIRS, WALK
 Subject  <- A number 1 to 30 identifying the indidual that was part of the study
 
 The following columns contain the mean of all measurements for that person for the specific activity
+
 tBodyAcc-mean()-X 
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
@@ -84,6 +85,13 @@ fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
 fBodyBodyGyroJerkMag-meanFreq()
 
+
+The naming convention for the varable names is as follows:
+mean() - indicates that the original variable was a mean
+std() -indicates that the original variable was a standard deveation
+-X - the x component of the motion
+-Y - the y component of the motion
+-Z - the z component of the motion
 
 
 	
